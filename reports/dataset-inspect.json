@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "dtype": "uint16",
+  "tokenizer_sha256": "db59a574a29b77343d7f569cb4c737bb51fdc7ff3187432c0185d9b5b15e7e02",
+  "records_sha256": "489bbf60b3458d4f096c3010dc63df0838d1c1393a3f3cc886e3cce74f175f44",
+  "shards": [
+    {
+      "file": "train-00000.bin",
+      "split": "train",
+      "tokens": 210,
+      "sha256": "92dd661e6df32de08bdb7190b7e3e8a02e818ac529d59efc0e714015a56bd374"
+    },
+    {
+      "file": "validation-00000.bin",
+      "split": "validation",
+      "tokens": 189,
+      "sha256": "aa1c434758abb76392c00df07e457dcf923e11f0aabe053ed4b61d120ba10c0c"
+    },
+    {
+      "file": "test-00000.bin",
+      "split": "test",
+      "tokens": 144,
+      "sha256": "6351a12ea93f2be0bb5ec66c58cfad719c18c3635afa95daa9b99bd5ce2c689a"
+    }
+  ],
+  "languages": {
+    "c": 64,
+    "python": 413,
+    "javascript": 66
+  },
+  "records": 5
+}

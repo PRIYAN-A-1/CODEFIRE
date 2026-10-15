@@ -1,0 +1,40 @@
+{
+  "project": "PRIYAN CODE AI",
+  "version": "0.1.0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "dependencies": {
+    "torch": "2.14.1",
+    "tokenizers": "0.23.3",
+    "numpy": "2.3.5",
+    "PyYAML": "6.0.3",
+    "fastapi": "0.143.2",
+    "uvicorn": "0.54.0",
+    "psutil": "7.2.2",
+    "safetensors": "0.8.0",
+    "pytest": "9.1.1",
+    "httpx": "0.28.1"
+  },
+  "model_parameters": {
+    "smoke": 115008,
+    "23m": 22909824,
+    "134m": 134105856
+  },
+  "smoke_training": {
+    "steps": 60,
+    "processed_tokens": 3840
+  },
+  "tests": {
+    "python_passed": 43,
+    "frontend_passed": 2,
+    "frontend_build": "passed",
+    "cuda": "not_available",
+    "browser_visual": "not_run"
+  },
+  "hashes": {
+    "artifacts/tokenizer.json": "db59a574a29b77343d7f569cb4c737bb51fdc7ff3187432c0185d9b5b15e7e02",
+    "data/tokenized/manifest.json": "b75277755a102bb93b1e691ce7d3e147aab7413e140afa7acfae99320eeeae0d",
+    "checkpoints/step-00000060.pt": "a0cdb9e0656ee664deb74d191194665d60417704ee226c0bf6ae317ac3e95d72",
+    "frontend/package-lock.json": "c01fad474c6a355fbaaef01b4c4bec1932297c2f6735441a16028e46fdcd632d"
+  }
+}

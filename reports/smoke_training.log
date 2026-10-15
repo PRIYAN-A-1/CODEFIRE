@@ -1,0 +1,127 @@
+5
+
+
+
+{
+  "version": 1,
+  "dtype": "uint16",
+  "tokenizer_sha256": "db59a574a29b77343d7f569cb4c737bb51fdc7ff3187432c0185d9b5b15e7e02",
+  "records_sha256": "489bbf60b3458d4f096c3010dc63df0838d1c1393a3f3cc886e3cce74f175f44",
+  "shards": [
+    {
+      "file": "train-00000.bin",
+      "split": "train",
+      "tokens": 210,
+      "sha256": "92dd661e6df32de08bdb7190b7e3e8a02e818ac529d59efc0e714015a56bd374"
+    },
+    {
+      "file": "validation-00000.bin",
+      "split": "validation",
+      "tokens": 189,
+      "sha256": "aa1c434758abb76392c00df07e457dcf923e11f0aabe053ed4b61d120ba10c0c"
+    },
+    {
+      "file": "test-00000.bin",
+      "split": "test",
+      "tokens": 144,
+      "sha256": "6351a12ea93f2be0bb5ec66c58cfad719c18c3635afa95daa9b99bd5ce2c689a"
+    }
+  ],
+  "languages": {
+    "c": 64,
+    "python": 413,
+    "javascript": 66
+  },
+  "records": 5
+}
+{"step": 1, "tokens": 64, "loss": 6.247011661529541, "lr": 0.003, "tokens_per_second": 7272.096748922331, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 2, "tokens": 128, "loss": 6.19464635848999, "lr": 0.0029980866391636288, "tokens_per_second": 11065.07195912022, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 3, "tokens": 192, "loss": 5.805447578430176, "lr": 0.0029923519802836853, "tokens_per_second": 12036.2177315696, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 4, "tokens": 256, "loss": 5.9215006828308105, "lr": 0.002982812278873815, "tokens_per_second": 12302.934384292836, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 5, "tokens": 320, "loss": 5.522404193878174, "lr": 0.00296949457625412, "tokens_per_second": 11927.30753334961, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 6, "tokens": 384, "loss": 5.3437628746032715, "lr": 0.0029524366228995966, "tokens_per_second": 12077.823455617385, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 7, "tokens": 448, "loss": 5.345286846160889, "lr": 0.0029316867714323145, "tokens_per_second": 11692.316686348757, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 8, "tokens": 512, "loss": 5.282114028930664, "lr": 0.002907303839560657, "tokens_per_second": 12006.0518005799, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 9, "tokens": 576, "loss": 5.258293628692627, "lr": 0.002879356943354133, "tokens_per_second": 11828.094904158726, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 10, "tokens": 640, "loss": 5.001821994781494, "lr": 0.0028479253013263717, "tokens_per_second": 12453.380090493445, "validation_loss": 6.330221652984619, "gpu_peak_bytes": null}
+{"step": 11, "tokens": 704, "loss": 5.09270715713501, "lr": 0.002813098009881638, "tokens_per_second": 11191.710859390034, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 12, "tokens": 768, "loss": 4.8458967208862305, "lr": 0.002774973790761395, "tokens_per_second": 11790.384646730117, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 13, "tokens": 832, "loss": 4.7113213539123535, "lr": 0.002733660711206801, "tokens_per_second": 13277.906372756404, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 14, "tokens": 896, "loss": 4.629162788391113, "lr": 0.0026892758776303734, "tokens_per_second": 12739.96165696256, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 15, "tokens": 960, "loss": 4.64279842376709, "lr": 0.0026419451036651404, "tokens_per_second": 10230.528985491323, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 16, "tokens": 1024, "loss": 4.35227108001709, "lr": 0.00259180255353223, "tokens_per_second": 12587.636502054018, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 17, "tokens": 1088, "loss": 4.3852386474609375, "lr": 0.0025389903617378026, "tokens_per_second": 11377.963870551248, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 18, "tokens": 1152, "loss": 4.0620927810668945, "lr": 0.002483658230177359, "tokens_per_second": 12893.599798557334, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 19, "tokens": 1216, "loss": 4.138609409332275, "lr": 0.0024259630037894494, "tokens_per_second": 15045.20850079014, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 20, "tokens": 1280, "loss": 3.986908435821533, "lr": 0.002366068225961652, "tokens_per_second": 10276.099526668797, "validation_loss": 6.452651023864746, "gpu_peak_bytes": null}
+{"step": 21, "tokens": 1344, "loss": 4.1150360107421875, "lr": 0.0023041436749490778, "tokens_per_second": 13922.4835274249, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 22, "tokens": 1408, "loss": 4.186364650726318, "lr": 0.002240364882619455, "tokens_per_second": 16338.15904712083, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 23, "tokens": 1472, "loss": 3.968226909637451, "lr": 0.002174912636888983, "tokens_per_second": 16113.23170754928, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 24, "tokens": 1536, "loss": 3.668055772781372, "lr": 0.0021079724692593406, "tokens_per_second": 16153.963425154161, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 25, "tokens": 1600, "loss": 3.7949788570404053, "lr": 0.0020397341289084886, "tokens_per_second": 16140.37282279557, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 26, "tokens": 1664, "loss": 3.943986654281616, "lr": 0.001970391044826005, "tokens_per_second": 14636.88517935323, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 27, "tokens": 1728, "loss": 3.8059871196746826, "lr": 0.0019001397775176045, "tokens_per_second": 15693.117170505937, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 28, "tokens": 1792, "loss": 3.6323606967926025, "lr": 0.001829179461833025, "tokens_per_second": 12906.02037625903, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 29, "tokens": 1856, "loss": 3.810159921646118, "lr": 0.0017577112424966622, "tokens_per_second": 7351.6835183728035, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 30, "tokens": 1920, "loss": 3.745628595352173, "lr": 0.0016859377039409962, "tokens_per_second": 11214.41416672212, "validation_loss": 6.681643962860107, "gpu_peak_bytes": null}
+{"step": 31, "tokens": 1984, "loss": 3.6825475692749023, "lr": 0.0016140622960590042, "tokens_per_second": 11038.104398689842, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 32, "tokens": 2048, "loss": 3.5591466426849365, "lr": 0.001542288757503338, "tokens_per_second": 12522.489118743662, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 33, "tokens": 2112, "loss": 3.3332388401031494, "lr": 0.0014708205381669755, "tokens_per_second": 12088.563840775329, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 34, "tokens": 2176, "loss": 3.523348331451416, "lr": 0.0013998602224823957, "tokens_per_second": 12288.998849903577, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 35, "tokens": 2240, "loss": 3.4770679473876953, "lr": 0.0013296089551739947, "tokens_per_second": 13191.429280995011, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 36, "tokens": 2304, "loss": 3.2743635177612305, "lr": 0.001260265871091512, "tokens_per_second": 13498.811893629776, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 37, "tokens": 2368, "loss": 3.2704126834869385, "lr": 0.0011920275307406591, "tokens_per_second": 12932.42544994473, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 38, "tokens": 2432, "loss": 2.9957492351531982, "lr": 0.001125087363111017, "tokens_per_second": 7265.804942231336, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 39, "tokens": 2496, "loss": 3.367222547531128, "lr": 0.0010596351173805453, "tokens_per_second": 12309.072343870472, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 40, "tokens": 2560, "loss": 3.0945513248443604, "lr": 0.0009958563250509224, "tokens_per_second": 14123.754543912168, "validation_loss": 6.372066497802734, "gpu_peak_bytes": null}
+{"step": 41, "tokens": 2624, "loss": 3.286062002182007, "lr": 0.0009339317740383479, "tokens_per_second": 13916.056607213563, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 42, "tokens": 2688, "loss": 3.341531991958618, "lr": 0.0008740369962105508, "tokens_per_second": 14489.173983718867, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 43, "tokens": 2752, "loss": 3.145521640777588, "lr": 0.0008163417698226411, "tokens_per_second": 14456.951715722562, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 44, "tokens": 2816, "loss": 3.203613042831421, "lr": 0.000761009638262198, "tokens_per_second": 14217.363043476855, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 45, "tokens": 2880, "loss": 2.871617317199707, "lr": 0.0007081974464677708, "tokens_per_second": 13716.171687875449, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 46, "tokens": 2944, "loss": 2.8425869941711426, "lr": 0.0006580548963348596, "tokens_per_second": 14038.061571608556, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 47, "tokens": 3008, "loss": 3.216137170791626, "lr": 0.0006107241223696268, "tokens_per_second": 14253.161083627247, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 48, "tokens": 3072, "loss": 2.784599781036377, "lr": 0.0005663392887931989, "tokens_per_second": 13971.886381506214, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 49, "tokens": 3136, "loss": 2.980990409851074, "lr": 0.000525026209238605, "tokens_per_second": 14429.464606291234, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 50, "tokens": 3200, "loss": 2.827042818069458, "lr": 0.00048690199011836195, "tokens_per_second": 14245.822801801218, "validation_loss": 6.497945308685303, "gpu_peak_bytes": null}
+{"step": 51, "tokens": 3264, "loss": 3.0007588863372803, "lr": 0.00045207469867362835, "tokens_per_second": 14149.803527884646, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 52, "tokens": 3328, "loss": 2.7935800552368164, "lr": 0.00042064305664586747, "tokens_per_second": 13889.73891200837, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 53, "tokens": 3392, "loss": 2.992705821990967, "lr": 0.0003926961604393431, "tokens_per_second": 14143.980863385015, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 54, "tokens": 3456, "loss": 2.9702882766723633, "lr": 0.0003683132285676853, "tokens_per_second": 14253.767393405835, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 55, "tokens": 3520, "loss": 3.0063390731811523, "lr": 0.0003475633771004037, "tokens_per_second": 14469.653293496076, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 56, "tokens": 3584, "loss": 3.091003179550171, "lr": 0.00033050542374588, "tokens_per_second": 14323.736131812953, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 57, "tokens": 3648, "loss": 3.0092971324920654, "lr": 0.0003171877211261849, "tokens_per_second": 13980.077952167958, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 58, "tokens": 3712, "loss": 2.718656301498413, "lr": 0.00030764801971631494, "tokens_per_second": 14264.012609217716, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 59, "tokens": 3776, "loss": 2.9128570556640625, "lr": 0.0003019133608363714, "tokens_per_second": 13675.689986894507, "validation_loss": null, "gpu_peak_bytes": null}
+{"step": 60, "tokens": 3840, "loss": 3.029353141784668, "lr": 0.00030000000000000003, "tokens_per_second": 14504.462955054762, "validation_loss": 6.4762959480285645, "gpu_peak_bytes": null}
+{'step': 60, 'tokens': 3840, 'parameters': 115008}
+{
+  "model": "PRIYAN-CODE-SMOKE",
+  "parameters": 115008,
+  "checkpoint": "checkpoints/latest",
+  "training_tokens": 3840,
+  "split": "test",
+  "validation_loss": null,
+  "test_loss": 6.489581632614136,
+  "perplexity": 658.2479161402756,
+  "tokens_per_second": 31641.232718872245,
+  "syntax_validity": 0.0,
+  "syntax_tasks": 2,
+  "unit_test_pass_rate": null,
+  "pass_at_1": null,
+  "compile_success": null,
+  "bug_fix_success_rate": null,
+  "status": "fixture_evaluated_not_a_benchmark",
+  "failures": [
+    {
+      "prompt": "def unique_sorted(values):\n",
+      "completion": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "reason": "Python syntax error"
+    },
+    {
+      "prompt": "def is_even(number):\n",
+      "completion": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "reason": "Python syntax error"
+    }
+  ]
+}

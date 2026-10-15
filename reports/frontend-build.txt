@@ -1,0 +1,13 @@
+
+> priyan-code-ai-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v7.1.9 building for production...
+transforming...
+✓ 1578 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.38 kB │ gzip:  0.29 kB
+dist/assets/index-JNNvOtxb.css    7.35 kB │ gzip:  2.40 kB
+dist/assets/index-D5wEAEGX.js   214.84 kB │ gzip: 67.08 kB
+✓ built in 1.59s

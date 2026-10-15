@@ -1,0 +1,32 @@
+{
+  "records": "data/clean/records.jsonl",
+  "tokenizer": "artifacts/tokenizer.json",
+  "output": "data/tokenized",
+  "vocab_size": 512,
+  "shard_tokens": 1000000,
+  "sources": [
+    {
+      "path": "examples/train",
+      "repository": "priyan-original-train",
+      "approved": true,
+      "license_spdx": "CC0-1.0",
+      "permission_evidence": "Original project fixture released in examples/LICENSE",
+      "split": "train"
+    },
+    {
+      "path": "examples/validation",
+      "repository": "priyan-original-validation",
+      "approved": true,
+      "license_spdx": "CC0-1.0",
+      "permission_evidence": "Original project fixture released in examples/LICENSE",
+      "split": "validation"
+    },
+    {
+      "path": "examples/test",
+      "repository": "priyan-original-test",
+      "approved": true,
+      "license_spdx": "CC0-1.0",
+      "split": "test"
+    }
+  ]
+}

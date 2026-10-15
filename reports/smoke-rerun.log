@@ -1,0 +1,64 @@
+5
+{
+  "version": 1,
+  "dtype": "uint16",
+  "tokenizer_sha256": "67e3745d6cb11138b68a80123dc11fcacce58e48f20935aaabc5a66058024ab0",
+  "records_sha256": "489bbf60b3458d4f096c3010dc63df0838d1c1393a3f3cc886e3cce74f175f44",
+  "shards": [
+    {
+      "file": "train-00000.bin",
+      "split": "train",
+      "tokens": 222,
+      "sha256": "379de94b0a95a4ea6094914a5c54e3e328f4fa35e414dd01984e21379c985686"
+    },
+    {
+      "file": "validation-00000.bin",
+      "split": "validation",
+      "tokens": 80,
+      "sha256": "5d0ead68ec95a3a1d43460fde23f51461570bd1d8954ffd9e565623b4b344f2c"
+    },
+    {
+      "file": "test-00000.bin",
+      "split": "test",
+      "tokens": 76,
+      "sha256": "c6f70700ba8c4027c43bc7eee47d01f0334f93f0dd17fa3be0744490685eb44c"
+    }
+  ],
+  "languages": {
+    "c": 65,
+    "python": 237,
+    "javascript": 76
+  },
+  "records": 5
+}
+{'step': 60, 'tokens': 3840, 'parameters': 115008}
+{
+  "model": "PRIYAN-CODE-SMOKE",
+  "parameters": 115008,
+  "checkpoint": "checkpoints/latest",
+  "training_tokens": 3840,
+  "split": "test",
+  "validation_loss": null,
+  "test_loss": 6.738107490539551,
+  "perplexity": 843.9620174310842,
+  "tokens_per_second": 21773.46654077717,
+  "syntax_validity": 0.0,
+  "syntax_tasks": 2,
+  "unit_test_pass_rate": null,
+  "pass_at_1": null,
+  "compile_success": null,
+  "bug_fix_success_rate": null,
+  "status": "fixture_evaluated_not_a_benchmark",
+  "failures": [
+    {
+      "prompt": "def unique_sorted(values):\n",
+      "completion": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "reason": "Python syntax error"
+    },
+    {
+      "prompt": "def is_even(number):\n",
+      "completion": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "reason": "Python syntax error"
+    }
+  ]
+}

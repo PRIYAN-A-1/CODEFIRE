@@ -1,0 +1,10 @@
+{
+  "vocab_size": 32000,
+  "hidden_size": 384,
+  "num_layers": 6,
+  "num_attention_heads": 6,
+  "intermediate_size": 1024,
+  "max_context_length": 512,
+  "tie_word_embeddings": true,
+  "name": "PRIYAN-CODE-23M"
+}

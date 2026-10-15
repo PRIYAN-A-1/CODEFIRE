@@ -1,0 +1,18 @@
+{
+  "model": "configs/model_23m.yaml",
+  "dataset": "data/production/tokenized",
+  "tokenizer": "artifacts/production/tokenizer.json",
+  "sequence_length": 512,
+  "micro_batch_size": 1,
+  "gradient_accumulation_steps": 32,
+  "learning_rate": 0.0003,
+  "steps": 1221,
+  "checkpoint_dir": "checkpoints/23m",
+  "log": "logs/23m/train.jsonl",
+  "eval_every_steps": 100,
+  "checkpoint_every_steps": 500,
+  "checkpoint_keep_last": 2,
+  "seed": 42,
+  "mixed_precision": "auto",
+  "gradient_checkpointing": true
+}

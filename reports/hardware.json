@@ -1,0 +1,16 @@
+{
+  "gpu": {
+    "available": false,
+    "name": null,
+    "vram_bytes": null,
+    "bf16": false
+  },
+  "torch": "2.14.1+cpu",
+  "cuda_version": null,
+  "cpu_cores": 9,
+  "ram_available_bytes": 9501921280,
+  "disk_free_bytes": 26488774656,
+  "recommended_precision": "fp32",
+  "batch_size": "unmeasured; use probe",
+  "recommended_model": "23M first; probe before 134M"
+}

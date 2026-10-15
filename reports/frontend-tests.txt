@@ -1,0 +1,14 @@
+
+> priyan-code-ai-dashboard@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.4 /workspace/scratch/7ffdba4f5f49/PRIYAN-CODE-AI/frontend
+
+ ✓ src/App.test.tsx (2 tests) 182ms
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  11:47:51
+   Duration  1.06s (transform 75ms, setup 0ms, collect 271ms, tests 182ms, environment 372ms, prepare 62ms)
+

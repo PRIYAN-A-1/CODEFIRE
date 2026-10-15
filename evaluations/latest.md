@@ -1,0 +1,36 @@
+# Fixture evaluation
+
+These are tiny fixture measurements, not EvalPlus/LiveCodeBench results.
+
+```json
+{
+  "model": "PRIYAN-CODE-SMOKE",
+  "parameters": 115008,
+  "checkpoint": "checkpoints/latest",
+  "training_tokens": 3840,
+  "split": "test",
+  "validation_loss": null,
+  "test_loss": 6.489581632614136,
+  "perplexity": 658.2479161402756,
+  "tokens_per_second": 31641.232718872245,
+  "syntax_validity": 0.0,
+  "syntax_tasks": 2,
+  "unit_test_pass_rate": null,
+  "pass_at_1": null,
+  "compile_success": null,
+  "bug_fix_success_rate": null,
+  "status": "fixture_evaluated_not_a_benchmark",
+  "failures": [
+    {
+      "prompt": "def unique_sorted(values):\n",
+      "completion": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "reason": "Python syntax error"
+    },
+    {
+      "prompt": "def is_even(number):\n",
+      "completion": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "reason": "Python syntax error"
+    }
+  ]
+}
+```

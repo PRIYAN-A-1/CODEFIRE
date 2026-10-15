@@ -1,0 +1,18 @@
+{
+  "model": "configs/model_smoke.yaml",
+  "dataset": "data/tokenized",
+  "tokenizer": "artifacts/tokenizer.json",
+  "sequence_length": 32,
+  "micro_batch_size": 2,
+  "gradient_accumulation_steps": 1,
+  "learning_rate": 0.003,
+  "steps": 60,
+  "checkpoint_dir": "checkpoints",
+  "log": "logs/train.jsonl",
+  "eval_every_steps": 10,
+  "checkpoint_every_steps": 30,
+  "checkpoint_keep_last": 2,
+  "seed": 42,
+  "mixed_precision": "auto",
+  "gradient_checkpointing": false
+}

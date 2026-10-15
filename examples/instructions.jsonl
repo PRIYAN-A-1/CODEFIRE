@@ -1,0 +1,1 @@
+{"instruction":"Write a Python function that returns the square of x.","response":"def square(x):\n    return x * x","language":"python","task_type":"code_generation","approved":true,"tests":["assert square(4) == 16"]}

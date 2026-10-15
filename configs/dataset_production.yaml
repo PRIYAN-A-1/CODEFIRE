@@ -1,0 +1,16 @@
+{
+  "records": "data/production/records.jsonl",
+  "tokenizer": "artifacts/production/tokenizer.json",
+  "output": "data/production/tokenized",
+  "vocab_size": 32000,
+  "shard_tokens": 1000000,
+  "sources": [
+    {
+      "path": "YOUR_AUTHORIZED_REPO_PATH",
+      "repository": "unique-repository-id",
+      "approved": false,
+      "license_spdx": "MIT",
+      "permission_evidence": "REPLACE with actual permission/provenance evidence"
+    }
+  ]
+}

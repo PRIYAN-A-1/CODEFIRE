@@ -1,0 +1,15 @@
+{
+  "health": {
+    "status": "ok",
+    "model_available": true,
+    "training": false
+  },
+  "generation": {
+    "text": "\n   \n   \n    return return return return return",
+    "model": "PRIYAN-CODE-SMOKE",
+    "step": 60,
+    "stage": "base code continuation"
+  },
+  "stream": "data: {\"text\": \"\\n   \"}\n\ndata: {\"text\": \"\\n   \"}\n\ndata: {\"text\": \"\\n   \"}\n\ndata: {\"text\": \" return\"}\n\ndata: {\"text\": \" return\"}\n\ndata: {\"text\": \" return\"}\n\ndata: {\"text\": \" return\"}\n\ndata: {\"text\": \" return\"}\n\ndata: {\"done\": true}\n\n",
+  "status": "passed"
+}
