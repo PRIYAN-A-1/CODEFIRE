@@ -94,3 +94,4 @@ npm run build
 
 The ZIP intentionally includes tiny smoke artifacts for immediate offline model loading after dependencies are installed. Runtime directories are excluded by `.gitignore`; do not commit your real corpora or large model weights. Internet is required only to install dependencies unless you add optional infrastructure yourself.
 "# CODEFIRE" 
+"# CODEFIRE" 
